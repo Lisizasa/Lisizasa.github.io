@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #efefef;
+	font-family: Roboto;
+}
+
+main {
+	background-color: #fff;
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+width: calc(50% - 40px);
+height: calc((35vw - 40px)/ 16 * 9);
+margin: 10px;
+background-color: olive;
+background-size: cover;
+transition: all 0.5s ease;
+box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+h1{ 
+ width: 100%;
+ text-align: center;
+ font-size: 48px;
+}
+
+.image1{
+	background-image: url(../img/img1.jpg);
+
+}
+.image2{
+	background-image: url(../img/img2.jfif);
+	
+}
+.image3{
+	background-image: url(../img/img3.jfif);
+	
+}
+.image4{
+	background-image: url(../img/img4.jfif);
+	
+}
+.image5{
+	background-image: url(../img/img5.jpg);
+	
+}
+.image6{
+	background-image: url(../img/img6.jfif);
+	
+}
+
+@font-face {
+	font-family: Roboto;
+	scr: url(../fonts/Roboto-MediumItalic.ttf);
+}
+
+.image:hover {
+transform: rotate(3deg) scale(1.07);
+box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+}
